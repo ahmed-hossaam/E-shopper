@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Poppins, sans-serif;
+    text-align: center;
+}
+
+
+#varification {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e9f2f7;
+}
+
+
+.container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    max-width: 350px;
+    position: relative;
+}
+
+
+
+h2 {
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 14px;
+    color: #666;
+    margin: 5px 0;
+}
+
+.email {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.otp-inputs {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin:10px  15px;
+
+}
+
+.otp-inputs input {
+    width: 40px;
+    height: 40px;
+    margin:0 0  10px 0;
+    font-size: 18px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 37px;
+}
+
+.resend-text {
+    font-size: 14px;
+    color: #666;
+    margin:15px 0 ;
+}
+
+.resend-text a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #524cec;
+}
+
+.verify-btn {
+    appearance: none;
+    width: 100% !important;
+    height: auto !important;
+    padding: 10px;
+    background-image: linear-gradient(to right, #2e76e7, #524cec, #7f2eee);
+    color: white;
+    border: none;
+    border-radius: 32px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+.verify-btn:hover {
+    background-color: #6A3F1A;
+}
